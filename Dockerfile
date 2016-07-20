@@ -1,6 +1,6 @@
 # Install conan packages under GCC 6.1
 
-FROM debian
+FROM ubuntu
 
 MAINTAINER Uilian Ries <uilianries@gmail.com>
 
