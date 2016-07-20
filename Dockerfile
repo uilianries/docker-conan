@@ -5,7 +5,7 @@ FROM ubuntu
 MAINTAINER Uilian Ries <uilianries@gmail.com>
 
 RUN apt-get update
-RUN apt-get install -y software-properties-common python-software-properties python-pip
+RUN apt-get install -y software-properties-common python-software-properties python-pip cmake
 
 RUN add-apt-repository ppa:ubuntu-toolchain-r/test --yes
 RUN apt-add-repository "deb http://llvm.org/apt/xenial/ llvm-toolchain-xenial-3.8 main"
